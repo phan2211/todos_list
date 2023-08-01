@@ -1,0 +1,4 @@
+ips = ['100.122.133.105', '100.122.133.111']
+enter = int(input("enter the index of the IP you want:"))
+ips.pop(enter)
+print("You chose", ips)
